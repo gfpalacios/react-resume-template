@@ -400,6 +400,61 @@ export const experience: TimelineItem[] = [
       </ul>
     ),
   },
+  {
+    date: 'September 2008 – December 2008',
+    location: 'Capgemini - Buenos Aires, Argentina',
+    title: 'Software Developer',
+    content: (
+      <ul>
+        <li>
+          &#8226; Redesigned and refactored a piece of web platform to generate balance sheets reports and
+contacts management of an important Bank in Spain.
+        </li>
+        <li>&#8226; Interacted professionally with a diverse group of stakeholders including customers and
+managers.</li>
+        <li>&#8226;Coached a small team as technical leader.</li>
+
+        <li>
+          <b>Technologies:</b> Java, Struts, JSP, HTML, CSS, JavaScript, WebSphere, and Oracle DB.
+        </li>
+      </ul>
+    ),
+  },
+  {
+    date: 'February 2007 – September 2008',
+    location: 'Snoop Consulting - Buenos Aires, Argentina',
+    title: 'Java Developer',
+    content: (
+      <ul>
+        <li>
+          &#8226; Developed java web applications for Nextel international company related to manage its
+call center.
+        </li>
+        <li>
+          &#8226; Wrote batch process in order to handle thousands of data records involved in a migration
+project. Researched a variety of performance measurement tools.
+        </li>
+        <li>
+          &#8226; Monitored application performance, traced transaction with diagnostic tools to detect,
+isolate, and resolve performance issues.
+        </li>
+        <li>
+          &#8226; Researched and implemented SOA architecture. Solid experience in web services.
+        </li>
+        <li>
+          &#8226; Developed web application for MasterCard Argentina related to bill management and
+transactions made by phone charges.
+        </li>
+
+        <li>
+          <b>Technologies:</b>  Java, JavaScript, Groovy, GWT, Struts, JSP, JSF, Tiles, CSS, HTML,
+Hibernate, Spring, Maven, Axis, web services, SOAP, Dozer, Acegi, JXLS, JDBC, OC4J,
+WebSphere, Oracle, DB2.
+        </li>
+      </ul>
+    ),
+  },
+  
 ];
 
 /**
