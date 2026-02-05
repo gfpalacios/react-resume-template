@@ -1,6 +1,6 @@
 import {
   AcademicCapIcon,
-  DownloadIcon,
+/*  DownloadIcon,*/
   FlagIcon,
   MapIcon,
   OfficeBuildingIcon,
@@ -81,12 +81,6 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
-      primary: true,
-      Icon: DownloadIcon,
-    },
-    {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
       primary: false,
@@ -124,11 +118,15 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
+        name: 'Redux',
+        level: 9,
+      },
+      {
         name: 'Javascript',
         level: 10,
       },
       {
-        name: 'AngularJs 1.x',
+        name: 'TypeScript',
         level: 6,
       },
     ],
